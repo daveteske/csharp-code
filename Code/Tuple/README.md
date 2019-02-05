@@ -27,7 +27,7 @@ public void Deconstruct(out string firstname, out string lastname, out string mi
 ```
 
 ---
-### Interesting Ideass
+### Interesting Ideas
 [Task WhenAll Extension](https://compiledexperience.com/blog/posts/abusing-tuples)
 
 --- 
