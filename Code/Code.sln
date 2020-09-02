@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26124.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tuple", "Tuple\Tuple.csproj", "{CD7F01C4-4B00-4D96-A3B4-704BC7444809}"
 EndProject
@@ -15,9 +15,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpeechSyn", "SpeechSyn\Spee
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Benchmarking", "Benchmarking\Benchmarking.csproj", "{C8E12FD8-EC56-41D0-9379-881738ACEA09}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleForTesting", "ExampleForTesting\ExampleForTesting.csproj", "{E06A937C-49F0-47D9-A7E6-33B0778F246C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExampleForTesting", "ExampleForTesting\ExampleForTesting.csproj", "{E06A937C-49F0-47D9-A7E6-33B0778F246C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NSubsitituteExamples", "NSubsitituteExamples\NSubsitituteExamples.csproj", "{2324D969-28C3-4FEF-977B-9B71107ACD62}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NSubsitituteExamples", "NSubsitituteExamples\NSubsitituteExamples.csproj", "{2324D969-28C3-4FEF-977B-9B71107ACD62}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DependencyInjection", "DependencyInjection\DependencyInjection.csproj", "{7D3F282F-EAF7-47E4-AC87-B164B93AF10E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -125,6 +127,18 @@ Global
 		{2324D969-28C3-4FEF-977B-9B71107ACD62}.Release|x64.Build.0 = Release|Any CPU
 		{2324D969-28C3-4FEF-977B-9B71107ACD62}.Release|x86.ActiveCfg = Release|Any CPU
 		{2324D969-28C3-4FEF-977B-9B71107ACD62}.Release|x86.Build.0 = Release|Any CPU
+		{7D3F282F-EAF7-47E4-AC87-B164B93AF10E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D3F282F-EAF7-47E4-AC87-B164B93AF10E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D3F282F-EAF7-47E4-AC87-B164B93AF10E}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{7D3F282F-EAF7-47E4-AC87-B164B93AF10E}.Debug|x64.Build.0 = Debug|Any CPU
+		{7D3F282F-EAF7-47E4-AC87-B164B93AF10E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7D3F282F-EAF7-47E4-AC87-B164B93AF10E}.Debug|x86.Build.0 = Debug|Any CPU
+		{7D3F282F-EAF7-47E4-AC87-B164B93AF10E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D3F282F-EAF7-47E4-AC87-B164B93AF10E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D3F282F-EAF7-47E4-AC87-B164B93AF10E}.Release|x64.ActiveCfg = Release|Any CPU
+		{7D3F282F-EAF7-47E4-AC87-B164B93AF10E}.Release|x64.Build.0 = Release|Any CPU
+		{7D3F282F-EAF7-47E4-AC87-B164B93AF10E}.Release|x86.ActiveCfg = Release|Any CPU
+		{7D3F282F-EAF7-47E4-AC87-B164B93AF10E}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
